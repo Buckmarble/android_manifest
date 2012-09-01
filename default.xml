@@ -7,6 +7,9 @@
   <remote  name="buck"
            fetch="https://github.com/Buckmarble/" />
 
+  <remote  name="greg"
+           fetch="https://github.com/greg-pe/" />
+
   <remote name="cm"
            fetch="https://github.com/CyanogenMod/" />
            
