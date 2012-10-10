@@ -17,7 +17,7 @@
            remote="aosp"
            sync-j="7" />
 
-  <project path="build" name="platform_build" remote="buck" revision="master">
+  <project path="build" name="platform_build" remote="buck" revision="jb">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
