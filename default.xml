@@ -307,7 +307,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform_system_bluetooth" remote="buck" revision="jb" />
-  <project path="system/core" name="platform_system_core" remote="buck" revision="master" />
+  <project path="system/core" name="platform_system_core" remote="buck" revision="jb" />
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
