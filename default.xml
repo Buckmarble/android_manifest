@@ -21,16 +21,16 @@
   ProjectELite has been successfully sync'd to your computer!
   </notice>
 
-  <project path="build" name="platform_build" remote="greg" revision="mr1-gcc4.7">
+  <project path="build" name="platform_build" remote="buck" revision="mr1-gcc4.7">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="android_bionic" remote="greg" revision="mr1-gcc4.7" />
+  <project path="bionic" name="android_bionic" remote="buck" revision="mr1-gcc4.7" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="cts" name="platform/cts" />
-  <project path="dalvik" name="platform_dalvik" remote="greg" revision="jb-4.2" />
+  <project path="dalvik" name="platform_dalvik" remote="buck" revision="jb-4.2" />
   <project path="development" name="platform/development" />
   <project path="device/asus/grouper" name="device/asus/grouper" groups="device" />
   <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device" />
@@ -87,7 +87,7 @@
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" />
-  <project path="external/elfutils" name="platform_external_elfutils" remote="greg" revision="mr1-gcc4.7" />
+  <project path="external/elfutils" name="platform_external_elfutils" remote="buck" revision="mr1-gcc4.7" />
   <project path="external/embunit" name="platform/external/embunit" />
   <project path="external/emma" name="platform/external/emma" />
   <project path="external/esd" name="platform/external/esd" />
@@ -199,7 +199,7 @@
   <project path="external/tinyxml" name="platform/external/tinyxml" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" />
   <project path="external/tremolo" name="platform/external/tremolo" />
-  <project path="external/v8" name="platform_external_v8" remote="greg" revision="mr1-gcc4.7" />
+  <project path="external/v8" name="platform_external_v8" remote="buck" revision="mr1-gcc4.7" />
   <project path="external/valgrind" name="platform/external/valgrind" />
   <project path="external/webkit" name="platform/external/webkit" />
   <project path="external/webp" name="platform/external/webp" />
@@ -231,7 +231,7 @@
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="buck" revision="jb-4.2" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
-  <project path="frameworks/rs" name="platform_frameworks_rs" remote="greg" revision="mr1-gcc4.7" />
+  <project path="frameworks/rs" name="platform_frameworks_rs" remote="buck" revision="mr1-gcc4.7" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
@@ -258,7 +258,7 @@
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
-  <project path="libcore" name="platform_libcore" remote="greg" revision="jb-4.2" />
+  <project path="libcore" name="platform_libcore" remote="buck" revision="jb-4.2" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
@@ -358,7 +358,7 @@
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
-  <project path="system/security" name="platform_system_security" remote="greg" revision="mr1-gcc4.7" />
+  <project path="system/security" name="platform_system_security" remote="buck" revision="mr1-gcc4.7" />
   <project path="system/vold" name="platform/system/vold" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
