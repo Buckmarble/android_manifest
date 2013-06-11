@@ -15,8 +15,13 @@
            
   <remote  name="cr"
            fetch="git://github.com/CarbonDev/" />
+
   <remote  name="cphelps76"
            fetch="git://github.com/cphelps76/" />
+
+  <remote  name="gh"
+           fetch="git://github.com/arco/" />
+
   <default revision="refs/tags/android-4.2.2_r1.2"
            remote="aosp"
            sync-j="7" />
